@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="ruboweb">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--AUTOR-->
+	<meta name="author" content="Rubén Iglesias García">
+		
+	<!--KEYWORDS-->
+	<meta name="keywords" content="Rubén Iglesias García, Rubén Iglesias, Rubén, Iglesias, García, Ingeniería Informática, Dirección de Proyectos, Currículum, Informática, Proyectos, Experiencia, TI, Tecnologías de la Información, Consultoría, Cursos, Complementos, Certificaciones, Contacto" />
+
+	<!--DESCRIPCION-->
+	<meta name="description" content="Sitio Web personal de Rubén Iglesias García en el que podrá encontrar información sobre mi trayectoria profesional en el sector de la informática y las nuevas tecnologías, mi formación académica y cursos complementarios así como un contacto conmigo." />
+
+	<!--INDEXADO-->
+	<meta name="robots" content="index, follow, all" />
+	<meta name="googlebot" content="index, follow" />
+		
+	<!-- ICONO -->
+	<link rel="shortcut icon" href="img/rw.ico" type="image/x-icon" />
+	
+    <title>RuboWeb</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" class="index" ng-controller="rbwController" ng-cloak>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">RuboWeb</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                   
+                    <li>
+                        <a class="page-scroll" href="#page-top">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#capacidades">Capacidades</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#formacion">Formación</a>
+                    </li>
+					<!--<li>
+                        <a class="page-scroll" href="#proyectos">Proyectos</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">¡Hola! mi nombre es Rubén Iglesias</div>
+                <div>
+					<p>
+						Soy un <strong>Ingeniero Técnico Informático</strong> con conocimientos en la <strong>administración de sistemas</strong>, 
+						en el <strong>desarrollo de aplicaciones</strong> software y en <strong>gestión y dirección de proyectos</strong>. Es, esta 
+						última disciplina, en la que tengo orientada mi carrera profesional y mi experiencia en el mundo laboral, por los proyectos 
+						en los que estoy involucrado en la actualidad. La disposición para seguir progresando en las disciplinas con experiencia o en 
+						otras nuevas es una característica que me define.
+					</p>
+				</div>
+                <a href="CV-ruben.iglesias.garcia.pdf" class="page-scroll btn btn-xl">Descargar <abbr title="Currículum Vítae">CV</abbr></a>
+            </div>
+        </div>
+    </header>
+
+	<!-- experiencia Section -->
+    <section id="experiencia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experiencia Profesional</h2>
+                    <h3 class="section-subheading text-muted"><a href="timeline/timeline.html" title="Ver timeline completo">Timeline</a> a lo largo de las diferentes empresas y cargos que he ido ocupando dentro del mundo de las tecnologías de la información.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li ng-repeat="e in experiencias" class="{{e.clase}}">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" ng-src="{{e.imagen}}" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>{{e.fechas}}</h4>
+                                    <h4 class="subheading">{{e.tit_nombre}} <a ng-if="e.tit_url != null" href="{{e.tit_url}}" target="_blank"><i class="fa fa-globe"></i></a></h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><strong ngIf="e.cargo != null">{{e.cargo}}</strong> {{e.descripcion}}</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- capacidades Section -->
+    <section id="capacidades" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Capacidades Tecnológicas</h2>
+                    <h3 class="section-subheading text-muted">Diferentes técnicas, herramientas y otras capacidades adquiridas a lo largo de mi carrera.</h3>
+                </div>
+            </div>
+		
+			<div class="row text-center">
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-square fa-stack-2x text-primary"></i>
+						<i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Vitruvio Sistemas</h4>
+					<p ng-repeat="vs in vsTech">
+                        <strong>{{vs.titulo}}</strong><br />
+                        {{vs.tools}}
+                    </p>
+				</div>
+					
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-square fa-stack-2x text-primary"></i>
+						<i class="fa fa-puzzle-piece fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">BOP Nwe Media</h4>
+                    <p ng-repeat="bop in bopTech">
+                        <strong>{{bop.titulo}}</strong><br />
+                        {{bop.tools}}
+                    </p>
+				</div>
+				
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-square fa-stack-2x text-primary"></i>
+						<i class="fa fa-flask fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Personales/Académicos</h4>
+					<p ng-repeat="per in personalTech">
+                        <strong>{{per.titulo}}</strong><br />
+                        {{per.tools}}
+                    </p>
+				</div>
+			</div>      
+		</div>      
+	</section>
+	
+    <!-- formacion Section -->
+    <section id="formacion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Formación Académica</h2>
+                    <h3 class="section-subheading text-muted">Las siguientes titulaciones son las que he ido obteniendo a lo largo de mi formación.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+			
+			    <div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-university fa-stack-1x fa-inverse"></i>
+					</span>
+					
+                    <h4 class="service-heading">Máster Universitario en Dirección de Proyectos</h4>
+                    <p class="text-muted">2012 - 2013. Máster de 1 año de la Universidad de Oviedo.
+						<a href="http://cei.uniovi.es/postgrado/masteres/visor/-/asset_publisher/xK3t/content/master-universitario-en-direccion-de-proyectos;jsessionid=C328BB6684EFA66EC79142E56D30BA6C?redirect=%2Fpostgrado%2Fmasteres%2Fofertamu" target="_blank"><i class="fa fa-globe"></i></a>
+					</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-university fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Máster en Ingeniería Web</h4>
+                    <p class="text-muted">2007 - 2009. Máster de 2 años de la Universidad de Oviedo. 
+						<a href="http://cei.uniovi.es/postgrado/masteres/visor/-/asset_publisher/xK3t/content/master-universitario-en-ingenieria-web?redirect=%2Fpostgrado%2Fmasteres%2Fofertamu" target="_blank"><i class="fa fa-globe"></i></a>
+					</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Ingeniero Técnico en Informática de Sistemas</h4>
+                    <p class="text-muted">2002 - 2007. Ingeniería de 3 años de la Universidad de Oviedo.
+						<a href="https://ingenieriainformatica.uniovi.es/infoacademica/it" target="_blank"><i class="fa fa-globe"></i></a>
+					</p>
+                </div>				
+            </div>
+		</div>
+		<br /><br /><br />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">+ Formación</h2>
+                    <h3 class="section-subheading text-muted">Otros complementos y formación adicional.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+			    <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-certificate fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Premios y Certificaciones</h4>
+                    <ul class="left">
+                        <li ng-repeat="pc in premCert">
+                            {{pc.nombre}} 
+                            <a ng-if="pc.url != null" href="{{pc.url}}" target="_blank"><i class="fa fa-globe"></i></a>
+                            <abbr ng-if="pc.abbr != null" title="{{pc.abbr_desc}}">{{pc.abbr}}</abbr>
+                        </li>
+					</ul>
+                </div>
+				
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Publicaciones, Congresos y Seminarios</h4>
+                    <ul class="left">
+                        <li ng-repeat="pcs in pubSem">
+                            {{pcs.nombre}} <a ng-if="pcs.url != null" href="{{pcs.url}}" target="_blank"><i class="fa fa-globe"></i></a>
+                        </li>
+					</ul>
+                </div>
+                
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Cursos</h4>
+                    <ul class="left">
+						<li ng-repeat="c in cursos">{{c.nombre}}</li>
+					</ul>
+                </div>
+            </div>
+			
+			<p>
+				Si lo desea puede ver una historia completa de tiempo en el siguiente enlace: 
+				<a href="timeline/timeline.html" title="Ver timeline completo">ver timeline completo</a>.
+			</p>
+		</div>
+		
+	</section>
+
+    <section id="contact" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contacto</h2>
+                    <h3 class="section-subheading text-white">
+						Para solicitar más información o si desea ponerse en contacto conmigo, puede hacerlo a través del siguiente formulario o enviado un 
+						correo electrónico a: <a href="mailto:contacto@ruboweb.hol.es">contacto@ruboweb.hol.es</a>
+					</h3>
+                </div>
+            </div>         
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre *" id="name" required data-validation-required-message="Indique su nombre.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Indique su email.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mensaje *" id="message" required data-validation-required-message="Introduzca el contenido del mensaje."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>			
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; RuboWeb 2015</span><br />
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://es.linkedin.com/pub/rub%C3%A9n-iglesias-garc%C3%ADa/53/55b/391" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/ruboweb/repositories" target="_blank"><i class="fa fa-github" title="GitHub"></i></a></li>
+						<li><a href="https://twitter.com/ruboweb" target="_blank"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+                        <li><a href="http://instagram.com/ruboweb/" target="_blank"><i class="fa fa-instagram" title="Instagram"></i></a></li>
+						<li><a href="mailto:contacto@ruboweb.hol.es"><i class="fa fa-comment" title="e-mail"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>Diseño: <a href="http://startbootstrap.com/template-overviews/agency/" target="_blank">agency</a></li>
+						<li>Cabecera: <a href="https://unsplash.com/" target="_blank">unsplash</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+    <!-- Angular JS -->
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/rbwController.js"></script>
+	
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+		var u="//ruboweb.hol.es/stats/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', 1]);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="//ruboweb.hol.es/stats/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+
+</body>
+
+</html>
