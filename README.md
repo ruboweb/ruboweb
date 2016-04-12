@@ -1,5 +1,5 @@
 # ruboweb
-Is my simple persoinal website located in http://ruboweb.hol.es
+Is my simple personal Website: http://ruboweb.hol.es
 
 The technologies used for development are:
 
