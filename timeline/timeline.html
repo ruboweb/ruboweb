@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="timeline.js"></script>
+    <script type="text/javascript" src="timeline-locales.js"></script>
+	<link href="timeline.css" rel="stylesheet">
+    <link href="../css/agency.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<!--INDEXADO-->
+	<meta name="robots" content="index, follow, all" />
+	<meta name="googlebot" content="index, follow" />
+		
+	<!-- ICONO -->
+	<link rel="shortcut icon" href="../img/rw.ico" type="image/x-icon" />
+
+	<title>RuboWeb - Timeline</title>
+	
+    <script type="text/javascript">
+        var timeline;
+        var data;
+
+        // Called when the Visualization API is loaded.
+        function drawVisualization() {
+            // Create a JSON data table
+            data = [
+				{
+                    'start': new Date(2006,9,16),
+                    'end': new Date(2008,1,05),
+                    'content': '<i class="fa fa-cogs"></i> BOP New Media'
+                },
+				{
+                    'start': new Date(2007,4,7),
+                    'end': new Date(2007,6,9),
+                    'content': '<i class="fa fa-cogs"></i> Green Apple School'
+                },
+				{
+                    'start': new Date(2008,1,7),
+                    'end': new Date(),
+                    'content': '<i class="fa fa-cogs"></i> Vitruvio Sistemas'
+                },
+                {
+                    'start': new Date(2002,8,1),
+                    'end': new Date(2007,5,15),
+                    'content': '<i class="fa fa-graduation-cap"></i> Ingeniería Técnica Informática de Sistemas'
+                },
+				{
+                    'start': new Date(2007,8,1),
+                    'end': new Date(2009,6,1),
+                    'content': '<i class="fa fa-graduation-cap"></i> Máster en Ingeniería Web'
+                },
+				{
+                    'start': new Date(2012,8,1),
+                    'end': new Date(2013,6,15),
+                    'content': '<i class="fa fa-graduation-cap"></i> Máster Universitario en Dirección de Proyectos'
+                },
+				{
+                    'start': new Date(2005,6,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Tecnologías XML y Web Semántica'
+                },
+				{
+                    'start': new Date(2006,6,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Tecnologías de Seguridad Web'
+                },				
+				{
+                    'start': new Date(2009,2,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Integración Web Semántica'
+                },				
+				{
+                    'start': new Date(2009,11,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Diseño UML con Enterprise Architect'
+                },				
+				{
+                    'start': new Date(2010,03,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Análisis y toma de requisitos software'
+                },
+				{
+                    'start': new Date(2010,10,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Peritajes en Informática'
+                },
+				{
+                    'start': new Date(2011,02,1),
+                    'content': '<i class="fa fa-building"></i> Seminarios CMMI/SPICE - Nivel 2'
+                },
+				{
+                    'start': new Date(2011,02,1),
+                    'content': '<i class="fa fa-building"></i> Introducción a ISO/IEC 15504 (SPICE)'
+                },
+				{
+                    'start': new Date(2011,02,1),
+                    'content': '<i class="fa fa-building"></i> Seminario en Técnicas de Estimación'
+                },
+				{
+                    'start': new Date(2011,02,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Cloud Computing: Desarrollo en la nube'
+                },				
+				{
+                    'start': new Date(2011,10,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Elaboración Eficaz de Propuestas Comerciales'
+                },
+				{
+                    'start': new Date(2012,0,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Inglés Básico'
+                },
+				{
+                    'start': new Date(2012,2,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Oracle Database 11G SQL Fundamentals'
+                },
+				{
+                    'start': new Date(2013,8,1),
+                    'content': '<i class="fa fa-file-text-o"></i> HTML 5'
+                },
+				{
+                    'start': new Date(2014,4,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Android: Introducción a la programación'
+                },				
+				{
+                    'start': new Date(2014,6,18),
+                    'content': '<i class="fa fa-building"></i> XVIII Congreso Internacional de Dirección e Ingeniería de Proyectos'
+                },				
+				{
+                    'start': new Date(2014,10,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Excel 2010'
+                },
+				{
+                    'start': new Date(2014,10,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Marketing Digital'
+                },
+				{
+                    'start': new Date(2014,11,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Gestión y dirección de proyectos. Preparación para el PMP ITC'
+                },
+				{
+                    'start': new Date(2015,5,1),
+                    'content': '<i class="fa fa-certificate"></i> PMP® – Project Management Professional'
+                },
+				{
+                    'start': new Date(2015,7,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Productividad personal en la Era Digital'
+                },					
+				{
+                    'start': new Date(2015,11,1),
+                    'content': '<i class="fa fa-file-text-o"></i> AngularJS'
+                },
+				{
+                    'start': new Date(2016,02,1),
+                    'content': '<i class="fa fa-file-text-o"></i> Introducción al Business Intelligence y al Big Data'
+                }
+            ];
+
+            // specify options
+            var options = {
+                'width':  '100%',
+                'height': '450px',
+                'editable': false,   // enable dragging and editing events
+                'style': 'box',
+				'locale': 'es'
+            };
+
+            // Instantiate our timeline object.
+            timeline = new links.Timeline(document.getElementById('mytimeline'), options);
+            timeline.draw(data);
+        }
+    </script>
+</head>
+
+<body onload="drawVisualization();">
+	<h2 class="logo">RuboWeb - Timeline</h2>
+	<p>
+		A continuación podrá navegar a través de la línea de tiempo en la que se muestran las titulaciones, cursos, seminarios, certificaciones, ... que he ido obteniendo
+		a lo largo del tiempo.
+	</p>
+	
+	<p>
+		Haga scroll sobre la línea de tiempo para hacer zoom. Pulse sobre la misma para desplazarse a izquierda y derecha.
+	</p>
+	
+	<div id="mytimeline"></div>
+	
+	<ul>
+		<li><i class="fa fa-cogs"></i> Contratos en empresas</li>
+		<li><i class="fa fa-graduation-cap"></i> Titulaciones Universitarias</li>
+		<li><i class="fa fa-file-text-o"></i> Cursos</li>
+		<li><i class="fa fa-building"></i> Seminarios, Congresos y Publicaciones</li>
+		<li><i class="fa fa-certificate"></i> Certificaciones</li>
+	</ul>
+	
+	<p>
+		<a href="../index.html"><i class="fa fa-undo"> volver</i></a></p>
+	</p>
+</body>
+</html>
