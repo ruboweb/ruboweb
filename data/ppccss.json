@@ -1,0 +1,19 @@
+[
+    {
+        "orden" : 4,
+        "nombre": "XVIII Congreso Internacional de Dirección e Ingeniería de Proyectos",
+        "url": "http://aeipro.com/index.php/es/inicio2014"
+    },
+    {
+        "orden" : 3,
+        "nombre": "Técnicas de Estimación"
+    },
+    {
+        "orden" : 2,
+        "nombre": "Introducción a ISO/IEC 15504 (SPICE)"
+    },
+    {
+        "orden" : 1,
+        "nombre": "CMMI/SPICE - Nivel 2"
+    }
+]

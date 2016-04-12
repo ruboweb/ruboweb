@@ -1,0 +1,72 @@
+[
+	{
+		"clase": "timeline-inverted",
+		"imagen": "img/about/pmp.jpg",
+        "tit_nombre": "PMP® – Project Management Professional",
+		"tit_url": "http://www.pmi.org/",
+		"descripcion": "Obtención de la certificación que acredita el Project Management Institute, siendo válida del 26/06/2015 al 25/06/2018."
+	},
+	{
+		"imagen": "img/about/vs.png",
+        "fechas": "Feb/2011 - Hoy",
+		"tit_nombre": "Vitruvio Sistemas",
+		"tit_url": "http://vitruviosistemas.com/",
+        "cargo": "Jefe de Proyecto.",
+		"descripcion": "Destacan el Mantenimiento de Aplicaciones para el Principado de Asturias y el desarrollo y mantenimiento de SIES para la Universidad de Oviedo."	
+	},
+    {
+        "clase": "timeline-inverted",
+        "imagen": "img/about/iso.png",
+        "fechas": "Ene/2011 - Hoy",
+        "tit_nombre": "Vitruvio Sistemas",
+        "tit_url": "http://vitruviosistemas.com/",
+        "cargo": "Responsable de Mejora de Procesos.",
+        "descripcion": "Desarrollo metodológico y obtención de la certificación ISO 15504 - SPICE."   
+    },
+    {
+        "imagen": "img/about/ap.jpg",
+        "fechas": "Feb/2009 - Feb/2010",
+        "tit_nombre": "Vitruvio Sistemas",
+        "tit_url": "http://vitruviosistemas.com/",
+        "cargo": "Analista / Programador",
+        "descripcion": "de sistemas informáticos bajo la plataforma Java/J2EE. Estimación de proyectos y elaboración de ofertas comerciales. Gestión y asignación de tareas. Revisión de controles de proyecto."   
+    },
+    {
+        "clase": "timeline-inverted",
+        "imagen": "img/about/p.jpg",
+        "fechas": "Feb/2008 - Feb/2009",
+        "tit_nombre": "Vitruvio Sistemas",
+        "tit_url": "http://vitruviosistemas.com/",
+        "cargo": "Programador",
+        "descripcion": "de sistemas informáticos bajo la plataforma Java/J2EE y todas sus tecnologías derivadas tales como Hibernate/JPA, SQL, Spring, JSF, HTML/CSS, Maven, Servidores de Aplicaciones,... "   
+    },
+    {
+        "imagen": "img/about/bop.jpg",
+        "fechas": "May-2007 / Feb-2008",
+        "tit_nombre": "BOP New Media",
+        "cargo": "Responsable del departamento de desarrollo.",
+        "descripcion": "Gestión de proyectos. Análisis de requisitos y entrevistas con clientes. Preparación de maquetas y prototipos. Implantación de sistemas."   
+    },
+    {
+        "clase": "timeline-inverted",
+        "imagen": "img/about/gas.png",
+        "fechas": "May 2007 - Feb 2008",
+        "tit_nombre": "Green Apple School",
+        "cargo": "Docente.",
+        "descripcion": "Cursos de maquetación con HTML y CSS partiendo de diseños con Photoshop."   
+    },
+    {
+        "fechas": "Oct 2006 - May 2007",
+        "imagen": "img/about/pr.jpg",
+        "tit_nombre": "BOP New Media",
+        "cargo": "Desarrollador J2EE.",
+        "descripcion": "Gestores de contenido a medida con J2EE, MySSQL, HTML, CSS, Tomcat y Eclipse IDE. Flash y Photoshop."
+    },
+    {
+        "clase": "timeline-inverted",
+        "fechas": "1999 - 2006",
+        "imagen": "img/about/trabajo.jpg",
+        "tit_nombre": "Otros empleos",       
+        "descripcion": "Diferentes empleos no relacionados con las tecnologías de la información."
+    }
+]

@@ -1,0 +1,54 @@
+experiencia.json
+----------------
+[
+    {
+        "clase": "",
+        "imagen": "",
+        "fechas": "",
+        "tit_nombre": "",
+        "tit_url": "",
+        "cargo" : "",
+        "descripcion": ""
+    }
+]
+
+ppccss.json
+-----------
+[
+    {
+        "orden" : n, -- numero entero
+        "nombre": "",
+        "url": ""
+    }
+]
+
+ppcc.json
+-----------
+[
+    {
+        "orden" : n, -- numero entero
+        "nombre": "",
+        "url": "",
+        "abbr": "",
+        "abbr_desc" : ""
+    }
+]
+
+cursos.json
+-----------
+[
+    {
+        "orden" : n, -- numero entero
+        "nombre": ""
+    }
+]
+
+
+vs-tech.json | bop-tech.json | personal-tech.json
+-------------------------------------------------
+[
+    {
+        "titulo" : "",
+        "tools" : ""
+    }
+]
