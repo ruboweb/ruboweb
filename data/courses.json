@@ -1,0 +1,109 @@
+[
+	{
+        "type": "course",
+		"date": "03/2016",
+		"title": "Introduction to Business Intelligence and Big Data"
+	},
+	
+	{
+        "type": "course",
+		"date": "11/2015",
+		"title": "Angular JS"
+	},
+	
+	{
+        "type": "course",
+		"date": "08/2015",
+		"title": "Personal productivity in the Digital Era"
+	},
+		
+	{
+        "type": "course",
+		"date": "12/2014",
+		"title": "Preparing for the PMP"
+	},
+	
+	{
+        "type": "course",
+		"date": "11/2014",
+		"title": "Digital marketing"
+	},
+	
+	{
+        "type": "course",
+		"date": "11/2014",
+		"title": "Excel 2010"
+	},
+	
+	{
+        "type": "course",
+		"date": "05/2014",
+		"title": "Android: Introduction to programming"
+	},
+	
+	{
+        "type": "course",
+		"date": "09/2013",
+		"title": "HTML 5"
+	},
+		
+	{
+        "type": "course",
+		"date": "03/2012",
+		"title": "Oracle Database 11G SQL Fundamentals"
+	},
+	
+	{
+		"type": "course",
+		"date": "01/2012",
+		"title": "Basic English"
+	},
+	
+	{
+        "type": "course",
+		"date": "11/2011",
+		"title": "Commercial development Effective Proposals"
+	},
+			
+	{
+        "type": "course",
+		"date": "03/2011",
+		"title": "Cloud Computing"
+	},
+	
+	{
+        "type": "course",
+		"date": "11/2010",
+		"title": "IT expertise"
+	},
+	
+	{
+        "type": "course",
+		"date": "04/2010",
+		"title": "Requirements analysis software"
+	},
+	
+	{
+        "type": "course",
+		"date": "12/2009",
+		"title": "Design UML with Enterprise Architect"
+	},
+		
+	{
+        "type": "course",
+		"date": "03/2009",
+		"title": "Semantic Web Integration"
+	},
+	
+	{
+        "type": "course",
+		"date": "07/2006",
+		"title": "Web Security technologies"
+	},
+	
+	{
+        "type": "course",
+		"date": "07/2005",
+		"title": "XML technologies and Semantic Web"
+	}
+]

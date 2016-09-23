@@ -1,0 +1,69 @@
+[
+    {
+        "filter" : "web",
+        "title" : "RuboWeb",
+        "description" : "Personal Home Page",
+		"web": "http://ruboweb.hol.es/",
+        "image": "img/portfolio/Web.png"
+    },
+
+	{
+        "filter" : "rpi",
+        "title" : "RasPI Scripts",
+        "description" : "Scripts to automate tasks in Raspberry PI",
+        "image": "img/portfolio/Scripts.png"
+    },
+	
+	{
+        "filter" : "rpi",
+        "title" : "RasPIStatus",
+        "description" : "PHP monitor for Raspberry PI Systems",
+		"web": "https://github.com/ruboweb/RasPIstatus",
+        "image": "img/portfolio/RasPIStatus.png"
+    },
+	
+	{
+        "filter" : "api",
+        "title" : "FilmAffinityAPI",
+        "description" : "Simple API to extract information from FilmAffinity",
+		"web": "https://github.com/ruboweb/FilmAffinityAPI",
+        "image": "img/portfolio/FilmAffinityAPI.png"
+    },
+
+	{
+        "filter" : "app",
+        "title" : "AmazonPrice",
+        "description" : "Monitor prices amazon wish lists",
+		"web": "https://github.com/ruboweb/AmazonPrice",
+        "image": "img/portfolio/AmazonPrice.png"
+    },
+
+	{
+        "filter" : "app",
+        "title" : "pushetta",
+        "description" : "Schedule Notificator System with Pushetta",
+		"web": "https://github.com/ruboweb/pushetta",
+        "image": "img/portfolio/Pushetta.png"
+    },
+	
+    {
+        "filter" : "edu",
+        "title" : "The enterprise social network as a tool for help Project Management",
+        "description" : "Project to master",
+        "image": "img/portfolio/MDP.png"
+    },
+	
+    {
+        "filter" : "edu",
+        "title" : "Integration of systems through Service Oriented Architecture (SOA)",
+        "description" : "Project to master",
+        "image": "img/portfolio/MIW.png"
+    },	
+	
+    {
+        "filter" : "edu",
+        "title" : "Tool for Learning Application Level Protocols",
+        "description" : "End of degree project",
+        "image": "img/portfolio/IT.png"
+    }
+]

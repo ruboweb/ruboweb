@@ -1,0 +1,55 @@
+[
+	{
+		"image": "img/resume/vs.png",
+        "dates": "Feb/2011 - Hoy",
+		"name": "Vitruvio Sistemas",
+		"url": "http://vitruviosistemas.com/",
+        "job": "Project Manager.",
+		"description": "Highlights include the Application Maintenance for the Principality of Asturias and the development and maintenance of SIES for the University of Oviedo."	
+	},
+    {       
+		"image": "img/resume/iso.png",
+        "dates": "Ene/2011 - Hoy",
+        "name": "Vitruvio Sistemas",
+        "url": "http://vitruviosistemas.com/",
+        "job": "Head for Process Improvement.",
+        "description": "Design methodology and obtaining ISO 15504 - SPICE."   
+    },
+    {
+        "image": "img/resume/ap.jpg",
+        "dates": "Feb/2009 - Feb/2010",
+        "name": "Vitruvio Sistemas",
+        "url": "http://vitruviosistemas.com/",
+        "job": "Analyst/Developer",
+        "description": "computer systems under the Java/J2EE platform. Project estimation and preparation of commercial offers. Management and allocation of tasks. Project Review controls."   
+    },
+    {  
+		"image": "img/resume/p.jpg",
+        "dates": "Feb/2008 - Feb/2009",
+        "name": "Vitruvio Sistemas",
+        "url": "http://vitruviosistemas.com/",
+        "job": "Developer",
+        "description": "computer systems under the Java/J2EE platform and all its derivative technologies such as Hibernate/JPA, SQL, Spring, JSF, HTML/CSS, Maven, Application Servers, ..."   
+    },
+    {
+        "image": "img/resume/bop.jpg",
+        "dates": "May-2007 / Feb-2008",
+        "name": "BOP New Media",
+        "job": "Head Development Department.",
+        "description": "Project management. Requirements analysis and customer interviews. Preparation of models and prototypes. Implementation of systems."   
+    },
+    {
+		"image": "img/resume/gas.png",
+        "dates": "May 2007 - Feb 2008",
+        "name": "Green Apple School",
+        "job": "Educational.",
+        "description": "Course layout with HTML and CSS based designs with Photoshop."   
+    },
+    {
+        "dates": "Oct 2006 - May 2007",
+        "image": "img/resume/pr.jpg",
+        "name": "BOP New Media",
+        "job": "Software Developer.",
+        "description": "Content management as J2EE, MySSQL, HTML, CSS, Tomcat and Eclipse IDE. Flash and Photoshop."
+    }
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"image": "img/education/cip.jpg",
+		"dates": "2012 - 2013",
+        "name": "Master's Degree in Project Management",
+		"url": "http://cei.uniovi.es/postgrado/masteres/visor/-/asset_publisher/xK3t/content/master-universitario-en-direccion-de-proyectos;jsessionid=C328BB6684EFA66EC79142E56D30BA6C?redirect=%2Fpostgrado%2Fmasteres%2Fofertamu",
+		"description": "Master of one year from the University of Oviedo."
+	},
+
+    {
+		"image": "img/education/cip.jpg",
+		"dates": "2007 - 2009",
+        "name": "Master's Degree in Web Engineering",
+		"url": "http://cei.uniovi.es/postgrado/masteres/visor/-/asset_publisher/xK3t/content/master-universitario-en-ingenieria-web?redirect=%2Fpostgrado%2Fmasteres%2Fofertamu",
+		"description": "Master of two years from the University of Oviedo."
+    },
+	
+	{
+		"image": "img/education/it.jpg",
+		"dates": "2002 - 2007",
+        "name": "Technical Engineering in Computer Systems",
+		"url": "https://ingenieriainformatica.uniovi.es/infoacademica/it",
+		"description": "Engineering 3 years of the University of Oviedo."
+	}
+]
