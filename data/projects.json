@@ -8,6 +8,14 @@
     },
 
 	{
+        "filter" : "api",
+        "title" : "TorrentScannerET",
+        "description" : "Torrents Scanner and Monitor",
+		"web": "https://github.com/ruboweb/TorrentScannerET",
+        "image": "img/portfolio/TorrentScannerET.png"
+    },
+	
+	{
         "filter" : "rpi",
         "title" : "RasPI Scripts",
         "description" : "Scripts to automate tasks in Raspberry PI",
