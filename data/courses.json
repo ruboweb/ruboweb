@@ -1,6 +1,18 @@
 [
 	{
         "type": "course",
+		"date": "11/2016",
+		"title": "Desarrollo de metodología ágil de proyectos Scrum"
+	},
+	
+	{
+        "type": "course",
+		"date": "03/2016",
+		"title": "Laravel"
+	},
+	
+	{
+        "type": "course",
 		"date": "03/2016",
 		"title": "Introduction to Business Intelligence and Big Data"
 	},
