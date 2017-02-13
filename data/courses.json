@@ -76,7 +76,25 @@
 		"date": "11/2011",
 		"title": "Commercial development Effective Proposals"
 	},
-			
+	
+	{
+        "type": "course",
+		"date": "03/2011",
+		"title": "Seminar on Estimation techniques"
+	},
+	
+	{
+        "type": "course",
+		"date": "03/2011",
+		"title": "Introduction to ISO/IEC 15504 (SPICE)"
+	},
+	
+	{
+        "type": "course",
+		"date": "02/2011",
+		"title": "Seminars CMMI/SPICE - Level 2"
+	},
+	
 	{
         "type": "course",
 		"date": "03/2011",
