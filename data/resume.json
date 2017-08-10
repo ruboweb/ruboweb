@@ -1,7 +1,15 @@
 [
 	{
+		"image": "img/resume/ricoh.jpg",
+        "dates": "06/2017 - Present",
+		"name": "Ricoh IT Services",
+		"url": "http://www.ricoh.es/",
+        "job": "Project Manager.",
+		"description": "Among the projects in the Maintenance of applications of the educational field of the Principality of Asturias."	
+	},
+	{
 		"image": "img/resume/vs.png",
-        "dates": "11/2009 - Present",
+        "dates": "11/2009 - 06/2017",
 		"name": "Vitruvio Sistemas",
 		"url": "http://vitruviosistemas.com/",
         "job": "Project Manager.",
@@ -9,7 +17,7 @@
 	},
     {       
 		"image": "img/resume/iso.png",
-        "dates": "01/2011 - Present",
+        "dates": "01/2011 - 06/2017",
         "name": "Vitruvio Sistemas",
         "url": "http://vitruviosistemas.com/",
         "job": "Head for Process Improvement.",
